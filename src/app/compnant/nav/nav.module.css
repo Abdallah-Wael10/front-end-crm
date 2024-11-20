@@ -1,0 +1,206 @@
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.crm{
+    font-size: 32px;
+    font-weight: 700;
+    color: #122D69;
+
+    .span{
+        color: blue;
+    }
+}
+.first{
+    display: flex;
+    width: 42%;
+    gap: 50px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+
+    .link{
+        font-size: 14px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 47%;
+        height: 30px;
+        color: #122D69;
+        cursor: pointer;
+    }
+}
+
+.logo{
+    width: 35%;
+    height: 80px;
+    text-align: center;
+
+    .logoimg{
+        width: 101px;
+        height: 79px;
+    }
+}
+.profile{
+    width: 33%;
+    height: 80px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+
+    .profil{
+        width: 44px;
+        height: 44px;
+    }
+    .h1p{
+        color: #505050;
+        font-size: 14px;
+        padding-top: 6px;    }
+}
+
+.setting{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 4%;
+    height: 79px;
+
+    .sett{
+        color: transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 2px 2px 19px whitesmoke;
+    }
+}
+.menuToggle {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: #122D69;
+    transition: 0.3s;
+}
+
+.hamburger + .hamburger {
+    margin-top: 5px;
+}
+
+@media (min-width:761px) and (max-width:1024px) {
+
+    .nav{
+    .first{
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        height: 80px;
+        text-align: center;
+        align-items: center;
+        padding-left: 30px;
+    }
+    .setting{
+        width: 14%;
+
+    }
+    }
+
+}
+
+ @media (max-width: 760px) {
+    .nav {
+        height: 60px;
+        padding: 0 15px;
+    }
+
+    .first {
+        position: absolute;
+        top: 60px;
+        gap: 10px;
+        left: 0;
+        width: 100%;
+        flex-direction: row;
+        background-color: white;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease;
+        .link{
+            display: none;
+        }
+      
+        .crm{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 20px;
+        }
+    }
+    .logo{
+        z-index: 1;
+
+      .logoimg{
+        width: 101px;
+        height: 59px;
+      }
+    }
+
+    .first.active {
+        transform: translateY(0);
+        .link{
+            width: 100%;
+            gap: 7px;
+            display: flex;
+            justify-content: center;   
+             }
+        .crm{
+            display: none;
+
+        }
+        
+ 
+    }
+
+
+
+
+
+    .profile {
+        display: flex;
+        width: 67%;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        gap: 6px;
+        }
+
+    .menuToggle {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        z-index: 10;
+    }
+
+
+        .setting{
+            display: flex;
+            width: 12%;
+            justify-content: center;
+            height: 50px;
+            margin-right: 70px;
+            margin-top: 5px;
+
+            .sett{
+                width: 100%;
+                height: 30px;
+            }
+        }
+    
+}
+    

@@ -1,0 +1,226 @@
+.form{
+    width: 100%;
+    height: max-content;
+    padding-left: 11px;
+    padding-top: 20px;
+}
+
+.text{
+    width: 100%;
+    height: 70px;
+
+}
+.h1s3{
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    height: 30px;
+}
+.p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 39px;
+}
+.buttons{
+    width: 100%;
+    height: 36px;
+
+}
+
+.label{
+    display: flex;
+    width: 25%;
+    height: 70px;
+    gap: 10px;
+    flex-direction: column;
+}
+.inp{
+    width: 100%;
+    height: 45px;
+    border-radius: 17px;
+    border-style: none;
+    box-shadow: 2px 2px 19px whitesmoke;
+    padding-left: 10px;
+}
+.continar{
+    width: 100%;
+    max-height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 94px;
+    padding-top: 30px;
+}
+.sec4{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+}
+.submit{
+    width: 235px;
+    height: 45px;
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 22px;
+    border-style: none;
+}
+
+.btnc{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width:1441px) and (max-width:2600px) {
+    .dash{
+        width: 100%;
+        height: 1490px;
+    }
+    .chart{
+        width: 100%;
+        height: 400px;
+    }
+    .sec5{
+        width: 60%;
+        height: 664px;
+        padding-top: 96px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -170px;
+    }
+    }
+    @media (min-width:771px) and (max-width:1024px) {
+        .continar{
+            padding-left: 0;
+    
+        }
+        .form{
+            width: 62%;
+            height: max-content;
+            padding-left: 15px;
+            padding-top: 20px;
+        }
+    .sec2{
+        width: 99%;
+        height: 160px;
+        display: flex;
+        gap: 7px;
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+    .sec5{
+        width: 100%;
+        height: 623px;
+        padding-top: 166px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .chart{
+            width: 100%;
+        }
+      
+    }
+    }
+    @media (min-width:461px) and (max-width:770px) {
+        .sec4{
+            flex-wrap: wrap;
+        
+        }
+    .sec2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 39px;
+        padding-left: 30px;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .form{
+        width: 97%;
+        height: max-content;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .sec5{
+        width: 100%;
+        height: 672px;
+        padding-top: 96px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 560px;
+    
+        .chart{
+            width: 92%;
+            height: 429px;
+        }
+    }
+    
+    }
+    @media (max-width:460px) {
+    
+    .sec2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    
+    .label{
+        display: flex;
+        width: 70%;
+        height: 70px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+    .form{
+        width: 100%;
+        height: 900px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .sec4{
+        flex-wrap: wrap;
+    
+    }
+    .sec5{
+        width: 100%;
+        height: 664px;
+        padding-top: 96px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 750px;
+    }
+    }
+    @media (max-width:330px) {
+    
+    .continar{
+        width: 100%;
+        max-height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding-left: 54px;
+        padding-top: 30px;
+    }
+    }

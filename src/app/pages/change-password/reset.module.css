@@ -1,0 +1,315 @@
+.back{
+    width: 100%;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-image: url(../../homeimages/bg\ 1.jpg);
+    
+  }
+  .continar{
+    width: 100%;
+    height: 1024px;
+  }
+  .line{
+    position: absolute;
+    left: 200px;
+  }
+  .cont2{
+    width: 100%;
+    height: 995px;
+    position: relative;
+    top: -1000px;
+  }
+  .form{
+    background: #D9D9D92B;
+    width: 64%;
+    height: 743px;
+    border-radius: 28px;
+  
+    z-index: 2;
+  }
+  .formcont{
+    width: 100%;
+    height: 770px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 340px;
+    position: relative;
+    top: -190px;
+  }
+  .h1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding-top: 60px;
+  }
+  .img1{
+    width: 6%;
+    height: 289px;
+    position: relative;
+    top: 311px;
+    left: 100px;
+  }
+  .img2{
+    width: 6%;
+    height: 289px;
+    position: relative;
+    top: 310px;
+    left: 79%;
+  }
+  
+  .inpcont{
+    width: 100%;
+      height: 54px;
+      text-align: center;
+  
+      .inp{
+        width: 61%;
+        height: 44px;
+        border-radius: 15px;
+        border-style: none;
+        padding-left: 50px;
+      }
+  }
+  .inputs{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    top: 40px;
+  }
+  .email{
+    background: white;
+    width: 5%;
+    height: 36px;
+    position: relative;
+    top: 14px;
+    border-left: 0;
+    left: 39px;
+  }
+  .pass{
+    background: white;
+    width: 5%;
+    height: 36px;
+    position: relative;
+    top: 14px;
+    border-left: 0;
+    left: 39px;
+  }
+  .link{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: end;
+    padding-right: 129px;
+    padding-top: 10px;
+  }
+  .btn{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    padding-left: 20px;
+  
+    .btn1{
+      width: 63%;
+      background: #2563EB;
+      color: white;
+      height: 44px;
+      border-radius: 22px;
+      border-style: none;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+     }
+  }
+  .sec2{
+    width: 100%;
+    height: 290px;
+  padding-top: 20px;
+  }
+  .cont3{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+  
+  }
+  .h1s2{
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding-left: 176px;
+    gap: 20px;
+  
+    .hr{
+      height: 2px;
+      width: 20%;
+  }
+    }
+  .imgs{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 15px;
+  
+    .google{
+      width: 11%;
+      height: 35px;
+      margin-right: 5px;
+    }
+  }
+  .acc{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    position: relative;
+    top: 120px;
+  }
+  .h1s3{
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+  }
+  .signup{
+    color: #2563EB;
+    font-size: 15px;
+    font-weight: 900;
+  }
+
+  @media (min-width:1921px) and (max-width:2600px) {
+
+    .line{
+      position: absolute;
+      left: 830px;
+    }
+    .formcont{
+      width: 80%;
+      height: 770px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      padding-left: 920px;
+      position: relative;
+      top: -190px;
+    }
+    }
+    @media (min-width:1541px) and (max-width:1920px) {
+
+      .line{
+        position: absolute;
+        left: 500px;
+      }
+      .formcont{
+        width: 91%;
+        height: 770px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding-left: 590px;
+        position: relative;
+        top: -190px;
+      }
+      }
+      @media (min-width:1441px) and (max-width:1540px) {
+      .line{
+        position: absolute;
+          left: 313px;
+      }
+        .formcont{
+          width: 100%;
+                height: 770px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                padding-left: 440px;
+                position: relative;
+                top: -190px;
+        }
+        }
+  @media (min-width:771px) and (max-width:1099px) {
+
+    .form{
+      width: 90%;
+    
+    }
+    .line{
+      position: absolute;
+      left: 66px;
+    }
+    .formcont{
+      width: 90%;
+      height: 770px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      padding-left: 230px;
+      position: relative;
+      top: -190px;
+    }
+    }
+
+  @media (max-width:770px) {
+    .formcont{
+      width: 100%;
+      height: 770px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      padding-left: 0;
+      position: relative;
+      top: -190px;
+  .email{
+    left: 43px;
+  
+  }
+  .pass{
+    left: 43px;
+  
+  }
+      .form{
+        background: #D9D9D92B;
+        width: 100%;
+        height: 743px;
+        border-radius: 28px;
+        z-index: 2;
+  
+        .link{
+          color: white;
+          font-size: 14px;
+          font-weight: 700;
+          padding-right: 0;
+          padding-top: 10px;
+          text-align: center;
+          width: 100%;
+        }
+  
+        .h1s2{
+          width: 100%;
+          height: 32px;
+          font-size: 14px;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          padding-left: 0;
+          gap: 20px;
+          justify-content: center;
+        }
+      }
+  
+    }
+    .line{
+      display: none;
+  
+    }
+  }

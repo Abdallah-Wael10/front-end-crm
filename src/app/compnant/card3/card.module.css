@@ -1,0 +1,139 @@
+.card{
+    width: 23%;
+    height: 182px;
+    background-color: rgba(248, 251, 255, 1);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.box{
+    background-color: rgba(101, 167, 255, 0.15);
+    width: 111px;
+    height: 61px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+.h1{
+    color: rgba(157, 157, 157, 1);
+font-size: 12px;
+font-weight: 400;
+width: 100%;
+height: 20px;
+}
+.salesname{
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(80, 80, 80, 1);
+    width: 100%;
+    height: 28px;
+}
+.client{
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding-top: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    padding-left: 15px;
+}
+
+.continar{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.continar2{
+    width: 9%;
+    height: auto;
+    position: relative;
+    left: 262px;
+    display: flex;
+    flex-direction: column;
+    top: -82px;
+    gap: 20px;
+
+    .img{
+        width: 100%;
+        height: 23px;
+    }
+
+
+}
+.first{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    .img{
+        width: 100%;
+        height: 23px;
+    }
+}
+.lead{
+    font-size: 12px;
+    font-weight: 800;
+    
+}
+.leads{
+    display: flex;
+    width: 31%;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    height: 30px;
+    padding-top: 10px;
+
+}
+
+.done {
+    color: green;
+}
+
+.lost {
+    color: red;
+}
+
+.follow-up {
+    color: orange;
+}
+
+@media (min-width:431px) and (max-width:1024px) {
+    .card{
+        width: 47%;
+        height: auto;
+        background-color: rgba(248, 251, 255, 1);
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+}
+}
+
+@media  (max-width:540px) {
+    .card{
+    width: 100%;
+    height: auto;
+    background-color: rgba(248, 251, 255, 1);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+}
+
+@media (min-width:321px) and (max-width:390px) {
+
+.continar{
+    width: 89%;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+    padding-left: 70px;
+}
+}

@@ -1,0 +1,75 @@
+/* components/LeadStatusSelector.module.css */
+.statusContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.statusButton {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.statusButton input {
+    display: none;
+}
+
+.statusIcon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.statusButton:hover {
+    border-color: #bbb;
+}
+
+.statusButton.selected {
+    border-color: #000;
+}
+
+.statusButton.selected .statusIcon {
+    transform: scale(1.2);
+}
+
+/* Status colors */
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.gray {
+    background-color: gray;
+}
+
+@media (max-width:460px) {
+
+.statusContainer{
+    width: 100%;
+    height: 131px;
+    flex-wrap: wrap;
+    display: flex;
+}
+}
